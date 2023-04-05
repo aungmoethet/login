@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap');
+  *{
+  
+    font-family: 'Teko', sans-serif;font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: rgb(173, 161, 240);
+}
+.container{
+height: 100vh;
+display: grid;
+place-items: center;
+
+}
+form{
+    background-color: rgb(99, 35, 160);
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+.login{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    transition: all 1000ms ease-in-out;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.inputgroup{
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+.inputgroup input{
+    width: 100%;    
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(175, 168, 168);
+    color: white;
+    padding-left: 10px;
+
+}
+.inputgroup input::placeholder{
+    color: rgb(202, 197, 197);   
+}
+.inputgroup input:focus{
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.inputgroup .btn {
+    background-color: rgb(69, 23, 112);
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: rgb(215, 218, 221);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .7s;
+}
+.inputgroup .btn:hover{
+    background-color: rgb(45, 17, 71);
+    transform: translateY(-10px);
+}
+.inputgroup .btn:visited{
+    background-color: rgb(220, 202, 236);
+}
